@@ -1,11 +1,11 @@
-packages:=boost libevent
+packages:=boost openssl libevent
 
-qt_packages = zlib
+protobuf_native_packages = native_protobuf
+protobuf_packages = protobuf
 
-qrencode_packages = qrencode
+qt_packages = qrencode zlib
 
 qt_linux_packages:=qt expat libxcb xcb_proto libXau xproto freetype fontconfig
-qt_android_packages=qt
 
 rapidcheck_packages = rapidcheck
 
