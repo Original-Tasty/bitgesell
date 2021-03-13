@@ -820,7 +820,7 @@ Exportar los datos en la pestaña actual a un archivo</translation>
         <translation>Como esta es la primera vez que se lanza el programa, puede elegir dónde %1 almacenará sus datos.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>Al hacer clic OK, %1 iniciará el proceso de descarga y procesará el blockchain completo de %4 (%2 GB), iniciando desde el la transacción más antigua %3 cuando %4 se ejecutó inicialmente.</translation>
     </message>
     <message>
@@ -844,7 +844,7 @@ Exportar los datos en la pestaña actual a un archivo</translation>
         <translation>BGL</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>Al menos %1 GB de información será almacenado en este directorio, y seguirá creciendo a través del tiempo.</translation>
     </message>
     <message>
@@ -872,7 +872,7 @@ Exportar los datos en la pestaña actual a un archivo</translation>
         <translation><numerusform>%n GB de espacio libre disponible</numerusform><numerusform>%n GB de espacio libre disponible</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(de %n GB requerido)</numerusform><numerusform>(de %n GB requeridos)</numerusform></translation>
     </message>
     </context>

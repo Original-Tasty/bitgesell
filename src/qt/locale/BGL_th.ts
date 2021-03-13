@@ -621,7 +621,7 @@
         <translation><numerusform>%n GB พื้นที่ว่างบนดิสก์ที่ใช้ได้</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(ต้องการพื้นที่ %n GB)</numerusform></translation>
     </message>
     </context>

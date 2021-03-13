@@ -867,7 +867,7 @@
         <translation>Поскольку программа запущена впервые, вы должны указать где %1 будет хранить данные.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>Когда вы нажмете ОК, %1 начнет загружать и обрабатывать полную цепочку блоков %4 (%2ГБ), начиная с самых ранних транзакций в %3, когда %4 был первоначально запущен.</translation>
     </message>
     <message>
@@ -891,7 +891,7 @@
         <translation>BGL Core</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>Как минимум %1 ГБ данных будет сохранен в эту директорию. Со временем размер будет увеличиваться.</translation>
     </message>
     <message>
@@ -919,7 +919,7 @@
         <translation><numerusform>%n ГБ свободного места</numerusform><numerusform>%n ГБ свободного места</numerusform><numerusform>%n ГБ свободного места</numerusform><numerusform>%n ГБ свободного места</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(требуется %n ГБ)</numerusform><numerusform>(%n ГБ требуется)</numerusform><numerusform>(%n ГБ требуется)</numerusform><numerusform>(%n ГБ требуется)</numerusform></translation>
     </message>
     </context>

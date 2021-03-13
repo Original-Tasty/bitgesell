@@ -824,7 +824,7 @@
         <translation>بیت کوین</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>حداقل %1 گیگابایت اطلاعات در این شاخه ذخیره خواهد شد، که به مرور زمان افزایش خواهد یافت.</translation>
     </message>
     <message>
@@ -844,7 +844,7 @@
         <translation><numerusform>%n گیگابایت از فضای موچود است</numerusform><numerusform>%n گیگابایت از فضای موچود است</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(از %n گیگابایت مورد نیاز)</numerusform><numerusform>(از %n گیگابایت مورد نیاز)</numerusform></translation>
     </message>
     </context>

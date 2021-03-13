@@ -137,7 +137,7 @@ Intro::Intro(QWidget *parent, uint64_t blockchain_size, uint64_t chain_state_siz
     }
     ui->prune->setText(tr("Discard blocks after verification, except most recent %1 GB (prune)").arg(pruneTarget ? pruneTarget / 1000 : 2));
     requiredSpace = m_blockchain_size;
-    QString storageRequiresMsg = tr("At least %1 GB of data will be stored in this directory, and it will grow over time.");
+    QString storageRequiresMsg = tr("At least %1 MB of data will be stored in this directory, and it will grow over time.");
     if (pruneTarget) {
         uint64_t prunedGBs = std::ceil(pruneTarget * 1024 * 1024.0 / GB_BYTES);
         if (prunedGBs <= requiredSpace) {
@@ -273,7 +273,7 @@ void Intro::setStatus(int status, const QString &message, quint64 bytesAvailable
         QString freeString = tr("%n GB of free space available", "", bytesAvailable/GB_BYTES);
         if(bytesAvailable < requiredSpace * GB_BYTES)
         {
-            freeString += " " + tr("(of %n GB needed)", "", requiredSpace);
+            freeString += " " + tr("(of %n MB needed)", "", requiredSpace);
             ui->freeSpace->setStyleSheet("QLabel { color: #800000 }");
             ui->prune->setChecked(true);
         } else if (bytesAvailable / GB_BYTES - requiredSpace < 10) {

@@ -552,10 +552,10 @@ void SetupServerArgs()
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/BGL/BGL>";
-    const std::string URL_WEBSITE = "<https://BGLcore.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/wu-emma/bitgesell>";
+    const std::string URL_WEBSITE = "<https://Bitgesell.ca>";
 
-    return CopyrightHolders(strprintf("Copyright (C) Bitcoin Core Developers, " + _("Copyright (C) %i-%i").translated, 2009, COPYRIGHT_YEAR) + " ") + "\n" +
+    return CopyrightHolders(strprintf("Copyright (C) Bitcoin Core Developers, " + _("Copyright (C) %i-%i").translated, 2020, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
            strprintf(_("Please contribute if you find %s useful. "
                        "Visit %s for further information about the software.").translated,

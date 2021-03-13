@@ -57,7 +57,7 @@ SplashScreen::SplashScreen(interfaces::Node& node, Qt::WindowFlags f, const Netw
     QString font            = QApplication::font().toString();
 
     // create a bitmap according to device pixelratio
-    QSize splashSize(650*devicePixelRatio,650*devicePixelRatio);
+    QSize splashSize(810*devicePixelRatio,810*devicePixelRatio);
     pixmap = QPixmap(splashSize);
 
     // change to HiDPI if it makes sense
@@ -74,9 +74,9 @@ SplashScreen::SplashScreen(interfaces::Node& node, Qt::WindowFlags f, const Netw
 //    pixPaint.fillRect(rGradient, gradient);
 
     // draw the BGL icon, expected size of PNG: 1024x1024
-    QRect rectIcon(QPoint(0,0), QSize(600,600));
+    QRect rectIcon(QPoint(0,0), QSize(800,800));
 
-    const QSize requiredSize(600,600);
+    const QSize requiredSize(800,800);
     QPixmap icon(networkStyle->getAppIcon().pixmap(requiredSize));
 
     pixPaint.drawPixmap(rectIcon, icon);

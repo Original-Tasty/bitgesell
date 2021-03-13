@@ -819,7 +819,7 @@
         <translation>BGL</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>Environ %1 GB de données seront stockées dans ce répertoire, et cela augmentera au cours du temps.</translation>
     </message>
     <message>

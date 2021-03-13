@@ -811,7 +811,7 @@
         <translation>Pōniywŏż je to piyrsze sztartniyńcie programu, możesz ôbrać kaj %1 bydzie spamiyntować swoje daty.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>Kej naciśniesz OK, %1 zacznie pobiyrać i przetwŏrzać cołkõ %4 keta blokōw (%2GB) przi zaczynaniu ôd piyrszych transakcyji w %3 kej %4 ôstoł sztartniynty.</translation>
     </message>
     <message>
@@ -835,7 +835,7 @@
         <translation>BGL</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>Co nojmynij %1 GB datōw ôstanie spamiyntane w tym katalogu, daty te bydōm z czasym corŏz srogsze.</translation>
     </message>
     <message>
@@ -863,7 +863,7 @@
         <translation><numerusform>%n GB swobodnego placu dostympne</numerusform><numerusform>%n GB swobodnego placu dostympne</numerusform><numerusform>%n GB swobodnego placu dostympne</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(z %n GB przidajnego)</numerusform><numerusform>(z %n GB przidajnych)</numerusform><numerusform>(z %n GB przidajnych)</numerusform></translation>
     </message>
     </context>

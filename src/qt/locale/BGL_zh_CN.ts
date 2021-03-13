@@ -951,7 +951,7 @@
         <translation>由于这是第一次启动此程序，您可以选择%1存储数据的位置</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>当你单击确认后，%1 将会在 %4 启动时从  %3 中最早的交易开始，下载并处理完整的 %4 区块链 (%2GB)。</translation>
     </message>
     <message>
@@ -983,7 +983,7 @@
         <translation>在完成验证后丢弃区块，只保留最近的 %1 GB(修剪)</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>此目录中至少会保存 %1 GB 的数据，并且大小还会随着时间增长。</translation>
     </message>
     <message>
@@ -1011,7 +1011,7 @@
         <translation><numerusform>有 %n GB 空闲空间可用</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(需要 %n GB的空间)</numerusform></translation>
     </message>
     <message numerus="yes">
