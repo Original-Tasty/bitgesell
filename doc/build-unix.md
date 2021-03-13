@@ -1,4 +1,4 @@
-﻿UNIX BUILD NOTES
+UNIX BUILD NOTES
 ====================
 
 Some notes on how to build BGL Core in Unix.
